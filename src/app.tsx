@@ -125,8 +125,8 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
  */
 export const request = {
   //baseURL:'http://localhost:8102',//让前端请求发到指定后端
-  //baseURL:'http://110.40.137.152:8102',     //线上部署的地址
-  baseURL:'http://apibackend.echobistar.cn',    //与后端绑定的服务器，通过其反向代理访问到后端，可以做到不暴露端口
+  //baseURL:'xxx',     //线上部署的地址
+  baseURL:'xxx',    //与后端绑定的服务器，通过其反向代理访问到后端，可以做到不暴露端口
   withCredentials:true,         //请求时带上cookie
   ...errorConfig,
 };
